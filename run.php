@@ -5,7 +5,7 @@
 require __DIR__.'/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
-use \Nerdial\MetroMarket\Command\OfferCommand;
+use \App\Command\OfferCommand;
 
 $application = new Application();
 
